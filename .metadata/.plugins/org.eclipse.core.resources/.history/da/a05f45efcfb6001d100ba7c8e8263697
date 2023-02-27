@@ -1,0 +1,5 @@
+package API_JDBC;
+
+public class DbException {
+
+}
