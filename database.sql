@@ -36,5 +36,4 @@ VALUES
   ('Alex Pink','bob@gmail.com','1997-03-04 00:00:00',3000,2);
   
 select * from department;
-
 select * from seller;
