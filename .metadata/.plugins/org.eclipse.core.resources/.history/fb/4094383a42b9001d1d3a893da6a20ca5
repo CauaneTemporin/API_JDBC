@@ -21,7 +21,6 @@ public class Program {
 					+ "WHERE "
 					+ "Id = ?");
 
-			//Número no id da tabela
 			st.setInt(1, 5);
 			
 			int rowsAffected = st.executeUpdate();
