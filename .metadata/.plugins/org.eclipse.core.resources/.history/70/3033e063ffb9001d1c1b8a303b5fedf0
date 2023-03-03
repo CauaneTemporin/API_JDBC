@@ -33,14 +33,11 @@ public class Program {
 		}
 
 		System.out.println("\n------- Teste 04: Seller e Department Insert-------");
+		
 		Seller sellerInsert = new Seller(null, "Greg", "greg@gmail.com", new Date(), 400.0, department);
 		sellerDao.insert(sellerInsert);
 		System.out.println("Inserido! Nova id: " + sellerInsert.getId());
 		
-	    System.out.println("\n------- Teste 05: Seller e Department Update-------");
-	    seller = sellerDao.findById(1);
-	    seller.setName("Martha Waine");
-		sellerDao.update(seller);
-		System.out.println("Update completed!");
+		
 	}
 }
