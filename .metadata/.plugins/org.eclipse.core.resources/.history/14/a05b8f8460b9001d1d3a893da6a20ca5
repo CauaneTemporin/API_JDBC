@@ -16,7 +16,7 @@ public class SellerDaoJDBC implements SellerDao{
 
 	private Connection connection;
 	
-	public SellerDaoJDBC(Connection connection) {
+	public SellerDaoJDBC() {
 		this.connection = connection;
 	}
 	
