@@ -25,7 +25,7 @@ public class Program {
 			System.out.println(obj);
 		}
 		
-		System.out.println("\n------- Teste 03: Seller e Department findAll-------");
+		System.out.println("\n------- Teste 0: Seller e Department findAll-------");
 		list = sellerDao.findAll();
 		for (Seller obj : list) {
 			System.out.println(obj);
