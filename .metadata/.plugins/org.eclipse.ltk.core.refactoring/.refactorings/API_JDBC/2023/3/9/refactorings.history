@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;SellerDaoJDBC.java&apos; to &apos;API_JDBC/src/model.dao.impl&apos;&#x0D;&#x0A;- Original project: &apos;API_JDBC&apos;&#x0D;&#x0A;- Destination element: &apos;API_JDBC/src/model.dao.impl&apos;&#x0D;&#x0A;- Original element: &apos;model.dao.SellerDaoJDBC.java&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="/src&lt;model.dao.impl" element1="/src&lt;model.dao{SellerDaoJDBC.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" patterns="*" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1677802916967" units="1" version="1.0"/>
+</session>
